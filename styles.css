@@ -1,0 +1,39 @@
+html{
+  background-image: URL("./background.jpg");
+  background-size:auto;
+  background-repeat: repeat;
+}
+
+body{
+  background-color: hsla(360, 62%, 75%, .4);
+  color: hsla(126, 72%, 74%, 1);
+  width:90%;
+  height:90%;
+  padding:10px;
+  margin: 20px auto;
+  text-align:center;
+  padding 10px;
+  border-radius: 15px;
+}
+
+fieldset {
+  border: none;
+}
+
+button {
+  height: 30px;
+  width: 20%;
+  border: 2px dotted hsla(126, 72%, 74%, 1);
+  border-radius: 15px;
+  color: hsla(126, 72%, 74%, 1);
+  background-color: hsla(126, 72%, 74%, 0);
+}
+
+button:active{
+  color: hsla(360, 62%, 75%, .6);
+  background-color: hsla(126, 72%, 74%, 1);
+}
+
+#no-button:hover, #no-button:active, #no-button:focus {
+  display:none;
+}
