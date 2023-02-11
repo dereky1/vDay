@@ -1,11 +1,11 @@
 html{
-  background-image: URL("./background.jpg");
+  background-color: hsla(126, 72%, 74%, 1);
   background-size:auto;
   background-repeat: repeat;
 }
 
 body{
-  background-color: hsla(360, 62%, 75%, .4);
+  background-color: hsla(360, 62%, 75%, 1);
   color: hsla(126, 72%, 74%, 1);
   width:90%;
   height:90%;
@@ -14,19 +14,22 @@ body{
   text-align:center;
   padding 10px;
   border-radius: 15px;
+  font-size: 2em;
 }
 
-fieldset {
-  border: none;
+form {
+  padding: 1em;
 }
 
 button {
-  height: 30px;
-  width: 20%;
-  border: 2px dotted hsla(126, 72%, 74%, 1);
+  height: 5em;
+  width: 30em;
+  border: 5px solid hsla(126, 72%, 74%, 1);
   border-radius: 15px;
   color: hsla(126, 72%, 74%, 1);
   background-color: hsla(126, 72%, 74%, 0);
+  font-size: 20px;
+  font-weight: bold;
 }
 
 button:active{
